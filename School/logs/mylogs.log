@@ -1,0 +1,63 @@
+2020-10-21 14:13:44.682  INFO 2976 --- [main] com.example.School.SchoolApplication     : Starting SchoolApplication on DESKTOP-B8E9EA0 with PID 2976 (C:\Users\Admin\Desktop\School\target\classes started by Admin in C:\Users\Admin\Desktop\School)
+2020-10-21 14:13:44.704  INFO 2976 --- [main] com.example.School.SchoolApplication     : No active profile set, falling back to default profiles: default
+2020-10-21 14:13:47.057  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-21 14:13:47.288  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 202ms. Found 4 JPA repository interfaces.
+2020-10-21 14:13:50.017  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-21 14:13:50.042  INFO 2976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-21 14:13:50.043  INFO 2976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-21 14:13:50.319  INFO 2976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-21 14:13:50.320  INFO 2976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5404 ms
+2020-10-21 14:13:51.079  INFO 2976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-21 14:13:51.337  INFO 2976 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-21 14:13:51.657  INFO 2976 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-10-21 14:13:51.720  WARN 2976 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-21 14:13:52.632  INFO 2976 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-21 14:13:53.177  INFO 2976 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-21 14:13:53.410  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-21 14:13:53.414  INFO 2976 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositoriesâ€¦
+2020-10-21 14:13:53.817  INFO 2976 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-21 14:13:53.953  INFO 2976 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-21 14:13:57.066  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.068  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "computer_stu" does not exist, skipping
+2020-10-21 14:13:57.073  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.073  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "student" does not exist, skipping
+2020-10-21 14:13:57.094  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.096  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "clazz_belong" does not exist, skipping
+2020-10-21 14:13:57.100  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.101  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "computer_stu" does not exist, skipping
+2020-10-21 14:13:57.105  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.105  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "student" does not exist, skipping
+2020-10-21 14:13:57.109  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-10-21 14:13:57.110  WARN 2976 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "teacher" does not exist, skipping
+2020-10-21 14:13:57.541  INFO 2976 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-21 14:13:57.572  INFO 2976 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-21 14:13:59.050  INFO 2976 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-21 14:13:59.150  INFO 2976 --- [main] com.example.School.SchoolApplication     : Started SchoolApplication in 15.71 seconds (JVM running for 17.124)
+2020-10-21 14:14:57.458  INFO 2976 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-21 14:14:57.459  INFO 2976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-21 14:14:57.494  INFO 2976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-10-21 14:14:57.651  INFO 2976 --- [http-nio-8080-exec-2] c.e.School.Controller.TeacherController  : INFO
+2020-10-21 14:14:57.652 ERROR 2976 --- [http-nio-8080-exec-2] c.e.School.Controller.TeacherController  : ERROR
+2020-10-21 14:15:09.395  INFO 2976 --- [http-nio-8080-exec-3] c.e.School.Controller.TeacherController  : INFO
+2020-10-21 16:06:20.659  INFO 12276 --- [main] c.example.School.SchoolApplicationTests  : Starting SchoolApplicationTests on DESKTOP-B8E9EA0 with PID 12276 (started by Admin in C:\Users\Admin\Desktop\School)
+2020-10-21 16:06:20.663  INFO 12276 --- [main] c.example.School.SchoolApplicationTests  : No active profile set, falling back to default profiles: default
+2020-10-21 16:06:21.851  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-21 16:06:22.059  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 193ms. Found 4 JPA repository interfaces.
+2020-10-21 16:06:23.378  INFO 12276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-21 16:06:23.544  INFO 12276 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-21 16:06:23.750  INFO 12276 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-10-21 16:06:24.317  INFO 12276 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-21 16:06:24.362  WARN 12276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-21 16:06:25.350  INFO 12276 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-21 16:06:25.663  INFO 12276 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-21 16:06:25.764  INFO 12276 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-21 16:06:25.934  INFO 12276 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-21 16:06:28.428  INFO 12276 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-21 16:06:28.455  INFO 12276 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-21 16:06:29.171  INFO 12276 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-21 16:06:29.199  INFO 12276 --- [main] c.example.School.SchoolApplicationTests  : Started SchoolApplicationTests in 9.047 seconds (JVM running for 11.344)
+2020-10-21 16:06:29.571  INFO 12276 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-21 16:06:29.573  INFO 12276 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-10-21 16:06:29.679  INFO 12276 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-21 16:06:29.680  INFO 12276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-21 16:06:29.713  INFO 12276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
